@@ -1,0 +1,125 @@
+.footer{
+    background-color: #F3F3F3;
+    margin-top: 247px;
+    padding-top: 61px;
+    padding-bottom: 61px;
+}
+
+.footer_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.link:hover{
+    opacity: 0.8;
+}
+
+.link:active{
+    opacity: 0.6;
+}
+
+.footer__image{
+    width: 158px;
+    height: 77px;
+}
+
+.footer__list{
+    width: 1100px;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__item{
+    width: 147px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__link{
+    text-decoration: none;
+    font-weight: 500;
+    font-style: 16px;
+    color: #333333;
+}
+
+.footer__strong {
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer__time{
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+
+.footer__time::before{
+    content: "";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/calendar.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    top: 15px;
+    left: -15px;
+}
+
+.footer__adress{
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+}
+
+.footer__adress::before{
+    content: "";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/house.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    top: 15px;
+    left: -15px;
+}
+
+.footer__link1{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+
+.footer__link2{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+    position: relative;
+    z-index: 1;
+}
+
+.footer__link2::before{
+    content: "";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/tell.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    top: 15px;
+    left: -15px;
+}
+

@@ -1,0 +1,71 @@
+.veterinary{
+    margin-top: 327px;
+    padding: 0;
+}
+
+.veterinary__span{
+    display: block;
+    background-color: #E6E6E6;
+    width: 140px;
+    height: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 43px;
+}
+
+.veterinary__span ~ .veterinary__span{
+    margin-top: 43px;
+}
+
+.veterinary__div{
+    position: relative;
+    z-index: 1;
+    width: 753px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.veterinary__div::before{
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/comma.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    top: -70px;
+    left: -86px;
+}
+
+.veterinary__div::after{
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/comma2.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    top: 86px;
+    right: -116px;
+}
+
+.veterinary__text{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #949494;
+}
+
+.veterinary__title{
+    font-weight: 500px;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}

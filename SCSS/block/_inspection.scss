@@ -1,0 +1,131 @@
+.inspection{
+    justify-content: space-between;
+    margin-top:-15px;
+    height: 0;
+    background-color: #FFFFFF;
+    border-radius: 0px 5px 5px 5px;
+}
+
+.inspection__div{
+    width: 1223px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 41px;
+    padding-left: 35px;
+    padding-right: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 0px 5px 5px 5px;
+}
+
+.inspection__image{
+    width: 524px;
+    height: 329px;
+}
+
+.inspection__about{
+    width: 492px;
+    margin: 0;
+    padding: 0;
+}
+
+.inspection__title{
+    font-weight: 500;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+
+.inspection__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #949494;
+    margin-top: 18px;
+    padding: 0;
+}
+
+.inspection__text ~ .inspection__text{
+    margin-top: 9px;
+    margin-bottom: 34px;
+}
+
+.inspection__adreess{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.inspection__link{
+    position: relative;
+    z-index: 1;
+    width: 185px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 43px;
+    text-align: center;
+    margin: 0;
+    background-color: #FFBD54;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.inspection__link::before{
+    content: "";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/link1.svg);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    top: 14px;
+    left: 33px;
+    
+}
+
+.inspection__link ~ .inspection__link{
+    width: 241px;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    padding-left: 53px;
+    margin-left: 21px;
+    background-color: #333333;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #fff; 
+}
+
+.inspection__link ~ .inspection__link::before{
+    content: "";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/document.svg);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+    top: 10px;
+    left: auto;
+    
+}
+
+.inspection__link:hover{
+    color: #FFBD54;
+    background-color: #333333;
+}
+
+.inspection__link:active{
+    opacity: 0.8;
+}
+
+.inspection__link ~ .inspection__link:hover{
+    color:#333333;
+    background-color: #FFBD54;
+}
+
+.inspection__link ~ .inspection__link:active{
+    opacity: 0.6;
+}

@@ -1,0 +1,92 @@
+.communication{
+    display: flex;
+    margin-top: 265px;
+    padding: 0;
+}
+
+.communication__iframe{
+    width: 462px;
+    height: 652px;
+}
+
+.communication__iframe:focus{
+    outline: none;
+}
+
+.communication__div{
+    width: 375px;
+    margin: 0;
+    padding-top: 62px;
+    padding-left: 162px;
+    padding-right: 393px;
+    background-image: url(../../images/connection-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #333333;
+    width: 1000px;
+    height: 652px;
+}
+
+.communication__title{
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.communication__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #949494;
+    margin-top: 14px;
+    margin-bottom: 29px;
+    padding: 0;
+}
+
+.communication__input{
+    width: 375px;
+    height: 50px;
+    background-color: #fff;
+    margin-bottom: 14px;
+    padding: 0;
+    color: #949494;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 16px;
+    padding-left: 22px;
+    padding-bottom: 13px;
+}
+
+.communication__textarea{
+    width: 375px;
+    height: 165px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #949494 ;
+    padding-top: 17px;
+    padding-left: 22px;
+    padding-right: 103px;
+}
+
+.communication__button{
+    width: 226px;
+    height: 50px;
+    padding: 15px 40px;
+    background-color: #FFBD54;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 45px;
+}
+
+.communication__button:hover{
+    color: #FFBD54;
+    background-color: #333333;
+}
+
+.communication__button:active{
+    .communication__button{
+        background-color: #7E7E7E;
+    }
+}

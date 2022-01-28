@@ -1,0 +1,232 @@
+.service{
+    margin-top: 191px;
+    padding: 0;
+}
+
+.service__title{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.service__about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.service__button{
+    width: 15px;
+    height: 25px;
+    background-image: url(../../images/arrow-left.svg); 
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.service__button ~ .service__button{
+    width: 15px;
+    height: 25px;
+    background-image: url(../../images/arrow-right.svg);
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.service__button:hover{
+    opacity: 0.8;
+}
+
+.service__button:active{
+    opacity: 0.6;
+}
+
+.service__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1223px;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.service__item1, .service__item2, .service__item3, .service__item4, .service__item5, 
+.service__item5, .service__item6{
+    position: relative;
+    z-index: 1;
+    width: 193px;
+    height: 201px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #F3F3F3;
+    padding-top:129px ;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 42px;
+    margin: 0;
+}
+
+.service__item1:hover{
+    opacity: 0.8;
+}
+
+.service__item1{
+    height: 215px;
+}
+
+.service__item2:hover{
+    opacity: 0.8;
+}
+
+.service__item3:hover{
+    opacity: 0.8;
+}
+
+.service__item4:hover{
+    opacity: 0.8;
+}
+
+.service__item4{
+    padding-top: 140px;
+}
+
+.service__item5:hover{
+    opacity: 0.8;
+}
+
+.service__item6:hover{
+    opacity: 0.8;
+}
+
+.service__item6{
+    padding-top: 140px;
+}
+
+.service__item1:active{
+    opacity: 0.6;
+}
+
+.service__item2:active{
+    opacity: 0.6;
+}
+
+.service__item3:active{
+    opacity: 0.6;
+}
+
+.service__item4:active{
+    opacity: 0.6;
+}
+
+.service__item5:active{
+    opacity: 0.6;
+}
+
+.service__item6:active{
+    opacity: 0.6;
+}
+
+
+
+
+
+.service__item1::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../images/doctor.svg);
+    background-repeat: no-repeat;
+    width: 54px;
+    height: 77px;
+    top: 30px;
+    left: 71px;
+}
+
+.service__item2::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../images/filled-outline.svg);
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 77px;
+    top: 30px;
+    left: 71px;
+}
+
+.service__item3::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../images/filled-outline2.svg);
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 77px;
+    top: 30px;
+    left: 71px;
+}
+
+.service__item4::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../images/filled-outline3.svg);
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 77px;
+    top: 30px;
+    left: 71px;
+}
+
+.service__item5::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../images/veterinary3.svg);
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 77px;
+    top: 30px;
+    left: 71px;
+}
+
+.service__item6::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../images/oftolmolgiya.svg);
+    background-repeat: no-repeat;
+    width: 78px;
+    height: 77px;
+    top: 30px;
+    left: 71px;
+}
+
+
+.service__div{
+    width: 126px;
+    height: 44px;
+    text-align: center;
+    align-items: center;
+}
+
+.service__link{
+    text-decoration: none;
+}
+
+.service__strong{
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}

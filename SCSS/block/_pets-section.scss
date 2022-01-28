@@ -1,0 +1,95 @@
+.pets{
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.pets__div{
+    
+    width: 608px;
+    margin-top: 153px;
+    margin-left: 653px;
+    padding: 0;
+}
+
+.pets::before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    display: inline-block;
+    background-image: url(../../images/hero-bg1.png);
+    width: 845px;
+    height: 845px;
+    top: -180px;
+    left: -267px;
+}
+
+.pets::after{
+    content: "";
+    position: absolute;
+    z-index: 3;
+    display: inline-block;
+    background-image: url(../../images/hero-bg2.png);
+    background-repeat: no-repeat;
+    width: 351px;
+    height: 388px;
+    top: 262px;
+    left: 1095px;
+}
+
+.pets__title{
+    font-weight: 700;
+    font-size: 70px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.pets__span{
+    font-weight: 700;
+    font-size: 70px;
+    color: #78C0DE;
+    margin: 0;
+    padding: 0;
+}
+
+.pets__textdiv{
+    margin-top: 29px;
+    margin-bottom: 38px;
+    padding: 0;
+    width: 495px;
+}
+
+.pets__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #949494;
+    margin: 0;
+    padding: 0;
+}
+
+.pets__link{
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 181px;
+    height: 50px;
+    padding: 15px 47px;
+    background-color: #333333;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.pets__link:hover{
+    background-color: #FFBD54;
+    color: #333333;
+}
+
+.pets__link:active{
+    opacity: 0.6;
+}

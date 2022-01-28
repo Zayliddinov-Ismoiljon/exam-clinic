@@ -1,0 +1,156 @@
+.status{
+    margin-top: 1209px;
+    padding: 0;
+}
+
+.status__title{
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #333333;
+    margin-top: 100px;
+}
+
+.status__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0;
+}
+
+.status__item{
+    width: 305px;
+    height: 435px;
+    border-radius: 5px;
+    background-color: #FEFEFE;
+    border: 1px solid #E4E4E2;
+    margin: 0;
+    padding: 0;
+}
+
+.status__item:hover{
+    .status__link{
+        color: #FFBD54;
+    }
+}
+
+.status__item:active{
+    .status__link{
+        color: #333333;
+    }
+}
+
+.status__item:nth-child(2){
+    width: 634px;
+    height: 435px;
+    display: flex;
+    align-items: center;
+}
+
+.status__img1{
+    width: 305px;
+    height: 435px;
+}
+
+.status__image{
+    width: 305px;
+    height: 180px;
+    margin-bottom: 21px;
+}
+
+.status__time{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 3px;
+    padding-left: 212px;
+    color: #949494;
+}
+
+.status__about{
+    width: 264px;
+    margin: 0;
+    padding-left: 31px;
+    padding-right: 31px;
+}
+
+.status__heading{
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.status__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #949494;
+    margin-top: 10px;
+    margin-bottom: 37px;
+    padding: 0;
+}
+
+.status__link{
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 54px;
+    padding: 0;
+}
+
+.status__link::before{
+    content: "";
+    display: inline-block;
+    z-index: 2;
+    background-image: url(../../images/pet.svg);
+    background-repeat: no-repeat;
+    top: 14px;
+    left: 25px;
+    width: 27px;
+    height: 25px;
+}
+
+.status__div{
+    width: 270px;
+    margin-left: 31px;
+    padding: 0;
+}
+
+.status__links{
+    display: flex;
+    margin-bottom: 32px;
+    padding: 0;
+}
+
+.status__link1{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #3D9CEA;
+}
+
+.status__link1 ~ .status__link1{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.status__time1{
+    font-weight: 500;
+    font-size: 14px;
+    color: #949494;
+    margin-left: 67px;
+    padding: 0;
+}
+
+.status__heading1{
+    font-weight: 700;
+    font-size: 26px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
